@@ -1,0 +1,25 @@
+body {
+    padding: 5px;
+
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/*Styling my nav-links and nav-item*/
+.nav-item {
+    border: 2px solid black;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: black;
+}
+
+/*Style btn*/
+.btn {
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}

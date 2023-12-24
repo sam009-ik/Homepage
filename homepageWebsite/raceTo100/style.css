@@ -1,0 +1,142 @@
+
+body {
+    padding: 5px;
+
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/*Styling my nav-links and nav-item*/
+.nav-item {
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: black;
+}
+
+/*Style btn*/
+.btn {
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+header {
+    /*background-image: url("./360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");*/
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(8, 8, 8);
+    
+    
+    font-weight: 800;
+    padding: 5px;
+
+}
+
+h2 {
+    color:rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+#computer-logs {
+    color: black;
+    padding-right: 10px;
+    margin: 20px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+}
+
+#start-btn {
+    color: whitesmoke;
+    background-color: lightcoral;
+    background-size: contain;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px;
+    font-size: larger;
+    margin-right: 30px;
+    
+}
+#start-btn:hover {
+    color: darkred;
+
+}
+#user-logs {
+    color: black;
+    padding-left: 10px;
+    margin: 20px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+#sum-el {
+    color: black;
+    padding: 2px;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    background-size: contain;
+}
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 60px;
+    border: 3px solid black;
+    border-radius: 50px;
+    font-weight: 800;
+    
+    color: black;
+}
+.btn:hover {
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: solid;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: black;
+    background-color: beige;
+    border: 1px solid beige;
+    margin-top: 90px;
+}

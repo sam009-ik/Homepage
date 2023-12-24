@@ -1,0 +1,240 @@
+
+@font-face {
+    font-family: 'MyCustomFont1';
+    src: url('./Hylia\ Serif\ Beta\ v0-009/') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyCustomFont2';
+    src: url('./Triforce.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+body * {
+    box-sizing: border-box;
+}
+.nav-item {
+    border: 2px solid black;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: black;
+}
+
+.container-zelda {
+    background-image: url("./backgroundImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*border: 5px solid red;*/
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    grid-template-rows: 85px 1fr 60px;
+     /* Adjust the opacity value as needed */
+}
+.top {
+    /*background-color: aqua;*/
+    grid-column-end: span 2;
+    color: white;
+    display: grid;
+    grid-template-columns: 224px 1fr 150px 1fr 224px;
+    border: 0.5px double grey;
+    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+}
+.left {
+    /*background-color: chartreuse;*/
+    opacity: 0.8;
+    height: 350px;
+}
+.right {
+    /*background-color: beige;*/
+    display: grid;
+    grid-template-rows: 155px 1fr 180px;
+    grid-template-areas:"conditions" "preview" "stats";
+    position: relative;
+}
+.bottom {
+    /*background-color: black;*/
+    grid-column-end: span 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 70px;
+    border: 0.5px double grey;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+    
+}
+
+.hearts {
+    /*background-color: yellow;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    padding-left: 38px;
+    align-content: flex-start;
+}
+
+.heart {
+    padding: 6px;
+    width: 16px;
+    height: 10px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+
+}
+.left-button {
+    align-self: end;
+    justify-self: end;
+    margin-bottom: 16px;
+    margin-right: 10px;
+
+}
+
+.right-button {
+    align-self: end;
+    margin-bottom: 16px;
+    margin-left: 15px;
+
+}
+.location {
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+    font-family: 'MyCustomFont2';
+    
+}
+.rupees {
+  
+    align-self: center;
+    justify-self: center;
+    margin-right: 50px;
+}
+
+.inventory-nav {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black */
+    
+
+}
+.title {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black */
+    height: 25px;
+    padding-top: 12px;
+    padding-left: 20px;
+
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 95px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+.link {
+    width: 40px;
+    height: 37px;
+    margin: 5px;
+    display: inline-block;
+    border: 0.5px solid grey;
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(5, 72px);
+    grid-template-rows: repeat(3, 72px);
+    grid-gap: 10px;
+    padding-left: 92px;
+    padding-top: 28px;
+    
+
+}
+.item {
+    background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+    border: 0.5px double grey;
+    
+}
+
+.conditions {
+    background-color: rgba(0, 0, 0, 0.2); /* semi-transparent black */
+    display: grid;
+    
+}
+.energy {
+    width: 48px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.temperature {
+    width: 40px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.thing {
+    width: 38px;
+    height: 36px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.preview {
+    
+    background-image: url("./link___the_legend_of_zelda__render_v4_by_rayluishdx2_dejmmrr-375w-2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -45px;
+    left: 160px;
+    right: 0;
+    bottom: 0;
+}
+.stats {
+    
+    grid-area: stats;
+    margin: 10px;
+    border: 0.5px double grey;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    z-index: 10;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+}
+
+
+.item-name {
+    height: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.info {
+    height: 34px;
+    align-items: center;
+    
+}
+.action {
+    color: white;
+    font-size: large;
+    padding-right: 10px;
+    margin-right: 10px;
+    align-items: center;
+    font-weight: 400;
+    height: 20px;
+    width: 80px;
+}
+.btn {
+    font-weight: 800;
+}

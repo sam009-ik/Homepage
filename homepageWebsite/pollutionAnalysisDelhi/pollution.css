@@ -1,0 +1,71 @@
+/* Basic Style.css for Jupyter Notebook HTML */
+body * {
+    box-sizing: border-box;
+}
+
+/*Styling my nav-links and nav-item*/
+.nav-item {
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: black;
+}
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Dark grey color for headings */
+    border-bottom: 1px solid #d0d0d0; /* Bottom border for headings */
+    padding-bottom: 10px; /* Padding below headings */
+}
+
+p {
+    color: #666; /* Lighter grey for paragraph text */
+    line-height: 1.6; /* Line spacing for readability */
+}
+
+/* Styling code blocks */
+pre {
+    background-color: #eaeaea; /* Light background for code blocks */
+    border: 1px solid #ccc; /* Border around code blocks */
+    padding: 15px;
+    overflow-x: auto; /* Adds horizontal scrolling for wide code blocks */
+    margin-bottom: 20px; /* Spacing below code blocks */
+}
+
+/* Styling tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px; /* Spacing below tables */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0; /* Light grey background for table headers */
+}
+
+/* Styling images */
+img {
+    max-width: 100%; /* Ensures images are not wider than their container */
+    height: auto;
+    margin-bottom: 20px; /* Spacing below images */
+}
+
+/* Add additional custom styles as needed */
+
+.hide-pip {
+    display: none;
+}

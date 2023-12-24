@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zelda Inventory UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./zelda.css">
+</head>
+<body>
+    <div class="container bg-light">
+        <div class="row navbar bg-light g-1">
+            <div class="col-2 nav nav-item nav-fill nav-cols">
+                <a class="nav-link text-center nav-text" href="../index.html">HOME</a>
+            </div>
+            <div class="col-2 nav nav-item nav-fill nav-cols">
+                <a class="nav-link text-center nav-text" href="../raceTo100/raceToHundered.html">Race To 100</a>
+            </div>
+            <div class="col-2 nav nav-item nav-fill nav-cols">
+                <a class="nav-link text-center nav-text" href="#">Zelda Inventory UI</a>
+            </div>
+            <div class="col-2 nav nav-item nav-fill contact-col nav-cols">
+                <a class="nav-link text-center nav-text" href="../pollutionAnalysisDelhi/pollution.html">Delhi Pollution Analysis</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-zelda">
+        <div class="top">
+            <div class="hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+            </div>
+            <div class="left-button">Adventure Log</div>
+            <div class="location">Inventory</div>
+            <div class="right-button">System</div>
+            <div class="rupees">🟢 756</div>
+        </div>
+        <div class="left">
+            <div class="inventory-nav">
+                <div class="title">Armor</div>
+            
+                <div class="links">
+                    <div class="link weapons"><img class="img-fluid" src="./weapon.jpg"></div>
+                    <div class="link bows"><img class="img-fluid" src="./bows.jpg"></div>
+                    <div class="link shields"><img class="img-fluid" src="./shields.jpg"></div>
+                    <div class="link armor"><img class="img-fluid" src="./armor.jpg"></div>
+                    <div class="link resources"><img class="img-fluid" src="./resources.jpg"></div>
+                    <div class="link food"><img class="img-fluid" src="./food.jpg"></div>
+                    <div class="link special"><img class="img-fluid" src="./specials.jpg"></div>
+                </div>
+                <div class="items">
+                    <div class="item"><img class="img-fluid" src="./linkArmor1.jpg"> </div>
+                    <div class="item"><img class="img-fluid" src="./linkArmor2.jpg"></div>
+                    <div class="item"><img class="img-fluid" src="./linkArmor3.jpg"></div>
+                    <div class="item"><img class="img-fluid" src="./linkArmor4.jpg"></div>
+                    <div class="item"><img class="img-fluid" src="./linkArmor5.jpg"></div>
+                    <div class="item"><img class="img-fluid" src="./linkArmor6.jpg"></div>
+                    <div class="item"><img class="img-fluid" src="./linkArmor7.jpg"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="conditions">
+                <div class="energy"><img class="img-fluid" src="./energy.png"></div>
+                <div class="temperature"><img class="img-fluid" src="./temperature.png"></div>
+                <div class="thing"><img class="img-fluid" src="./thingImg.jpg"></div>
+            </div>
+            <div class="preview"></div>
+
+            <div class="stats">
+                <div class="item-name text-decoration-underline my-2">Climbing Gear</div>
+                <div class="info d-flex">
+                    <div class="type armor"></div>
+                    <div class="stat current">
+                        <button type="button" class="btn text-white btn-sm btn-outline-secondary me-1">+5</button>
+                    </div>
+                    <div class="stat future"></div>
+                    <div class="bonus">Climb Speed Up</div>
+                </div>
+                <div class="description">The ancient technology used in making this gear and its no-slip gloves will make you a better climber. A Great Fairy has increased its defense by one-level</div>
+            </div>
+        </div>
+        <div class="bottom align-items-center">
+            <div class="action d-flex">
+                <span>Sort</span>  
+                <button type="button" class="btn btn-light btn-sm rounded-pill ms-1">Y</button>
+            </div>
+            
+            <div class="action d-flex">
+                <span>Back</span>
+                <button type="button" class="btn btn-light btn-sm rounded-pill ms-1">B</button>
+            </div>
+            <div class="action d-flex">
+                <span>Select</span>
+                <button type="button" class="btn btn-light btn-sm rounded-pill ms-1">A</button>
+            </div>
+            <div class="action d-flex">
+                <span>Rotate</span>
+                <button type="button" class="btn btn-light btn-sm rounded-pill ms-1">R</button>
+            </div>
+        </div>        
+    </div>
+    <div class="container mt-2">
+        <div class="row bg-light">
+            <p><em>Note:</em>The Zelda Inventory layout (from Breath of The Wild) has been designed from scratch using CSS grid and Flexbox, along with some Bootstrap utilities</p>
+        </div>
+        <div class="row d-flex justify-content-around bg-light">
+            <p class="text-start" >The current version vz1 is completely static</p>
+            <p class="text-end">&copy; 2023 Samarth Narula. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="./zelda.js"></script>
+</body>
+</html>
